@@ -1,0 +1,98 @@
+
+/* Style Secondary Titles */
+h2.subtitle{
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.705);
+    margin-top: 2px;
+}
+
+
+/* Style the introduction text */
+.introduction{
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    background: rgb(85, 85, 85);
+    opacity: 0.95;
+    margin: 20px;
+}
+
+.introduction p{
+    color: white;
+    opacity: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+
+/* For introduction page */
+.introgrid{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.introgridchild p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    background: rgb(85, 85, 85);
+
+    color: white;
+    opacity: 0.95;
+}
+
+.introgridchild{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.formgrid{
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.formgrid p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    background: rgb(85, 85, 85);
+
+    color: white;
+    
+    opacity: 0.95;
+}
+
+.formmessage{
+    color: white;
+}
+
+@media only screen and (min-width: 768px){
+    .introgrid{
+        grid-template-columns: 45% 45%;
+    }
+
+    .formgrid{
+        grid-template-columns: 45% 45%;
+    }
+}
+
+/* Desktop View */
+@media only screen and (min-width: 1024px){
+
+}

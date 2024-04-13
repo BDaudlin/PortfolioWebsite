@@ -1,0 +1,28 @@
+
+.projectgrid{
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Tablet View */
+@media only screen and (min-width: 768px){
+    .projectgrid{
+        grid-template-columns: 45% 45%;
+    }
+}
+
+/* Desktop View */
+@media only screen and (min-width: 1024px){
+    .projectgrid{
+        grid-template-columns: 30% 30% 30%;
+    }
+}
