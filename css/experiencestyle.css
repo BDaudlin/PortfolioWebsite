@@ -121,6 +121,10 @@ img{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .researchitem{
+        width: 70%;
+    }
 }
 
 /* Desktop View */
@@ -129,5 +133,8 @@ img{
         width: 50%;
         margin-left: auto;
         margin-right: auto;
+    }
+    h3{
+        width: 10%;
     }
 }

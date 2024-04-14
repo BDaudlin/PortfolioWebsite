@@ -45,6 +45,20 @@ h2{
     margin: 5px;
 }
 
+#quoteDisplay{
+    color: white;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    margin: 5px;
+    opacity: 0.95;
+    text-align: center;
+}
+
+#scroll{
+    margin-right: auto;
+}
+
 /* Tablet View */
 @media only screen and (min-width: 768px){
     .aboutdesc{
